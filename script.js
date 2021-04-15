@@ -89,7 +89,8 @@ function colorCoded() {
   var currentTime = today.format("h");
   // var currentTime = 14;
   for (var i = 0; i < 9; i++) {
-    if (currentTime < i + 9 || currentTime == 12) {
+    // if (currentTime < i + 9 || currentTime == 12) {
+    if (currentTime < i + 9) {
       timeTable.children[0].children[i].children[1].children[0].setAttribute(
         "style",
         "background-color: #77dd77;"
