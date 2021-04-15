@@ -23,4 +23,5 @@ THEN the saved events persist
 ```
 ## Deployed app
 
-www.
+https://stamm2911.github.io/Work-Day-Scheduler/
+![Deployed application](img/deployed-app.PNG)
