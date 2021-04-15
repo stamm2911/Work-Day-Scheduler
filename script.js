@@ -86,7 +86,7 @@ function currentTime() {
 }
 
 function colorCoded() {
-  var currentTime = today.format("h");
+  var currentTime = today.format("H");
   // var currentTime = 14;
   for (var i = 0; i < 9; i++) {
     // if (currentTime < i + 9 || currentTime == 12) {
